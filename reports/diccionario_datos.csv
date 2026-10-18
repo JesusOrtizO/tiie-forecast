@@ -1,0 +1,8 @@
+﻿key,source,id,titulo,periodicidad,unidad,fecha_inicio,fecha_fin,rol,fecha_consulta,resultado
+tiie28,SIE,SF60648,Tasas de Interés Interbancarias TIIE a 28 días - Fecha determinación,Diaria,Sin Unidad,31/07/2000,19/10/2026,Variable objetivo (periodo histórico),2026-10-18,OK
+tasa_objetivo,SIE,SF61745,Tasa objetivo,Diaria,Sin Unidad,21/01/2008,19/10/2026,Ancla de política monetaria,2026-10-18,OK
+tiie_fondeo,SIE,SF331451,"TIIE de Fondeo a Un Día Hábil Bancario, Mediana ponderada por volumen",Diaria,Porcentajes,02/01/2006,16/10/2026,"Variable objetivo (muestra completa, sin quiebre metodológico)",2026-10-18,OK
+fix,SIE,SF43718,Tipo de cambio Pesos por dólar E.U.A. Tipo de cambio para solventar obligaciones denominadas en moneda extranjera Fecha de determinación (FIX),Diaria,Pesos por Dólar,12/11/1991,16/10/2026,Exógena: tipo de cambio,2026-10-18,OK
+inpc,SIE,SP1,IPC Por objeto del gasto Nacional I n d i c e G e n e r a l,Mensual,Sin Unidad,01/01/1969,01/09/2026,Exógena: inflación (se calcula la variación anual),2026-10-18,OK
+igae,INEGI,737219,"IGAE total, serie desestacionalizada, índice base 2018 (BIE) [API: Índice]",Mensual,1051,,2026/07,Exógena: actividad económica,2026-10-18,MANUAL
+fedfunds,FRED,FEDFUNDS,(verificar en fred.stlouisfed.org/series/FEDFUNDS),Mensual,Porcentaje,2008-01-01,2026-09-01,Exógena externa: tasa de la Fed,2026-10-18,MANUAL
