@@ -1,0 +1,10 @@
+# Entorno virtual
+.venv/
+# Tokens y secretos
+.env
+# Datos crudos de las APIs (se regeneran con download.py)
+data/raw/*
+!data/raw/.gitkeep
+# Archivos temporales de Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
